@@ -10,7 +10,7 @@ require("dotenv").config();
  const ObjectID = require('mongodb').ObjectID
 
 
-const port = process.env.port || 8000
+const port = process.env.PORT || 8000
 
 
 
